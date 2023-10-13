@@ -4,8 +4,11 @@
 
 // Se declaran las credenciales del servidor
 
-const char* SSID = "Maestro";
-const char* PASS = "Master123";
+// const char* SSID = "Totalplay-97AA";
+// const char* PASS = "97AA4E1DzJ9kk5Hy";
+
+const char *SSID = "yourAP";
+const char *PASS= "yourPassword";
 
 void initWiFi() {
   WiFi.mode(WIFI_STA);
@@ -22,12 +25,10 @@ void initWiFi() {
 void setup() {
   Serial.begin(115200);
 
-  Serial.println("holaaa como estas");
-
   // Set WiFi to station mode and disconnect from an AP if it was previously connected
-  // WiFi.mode(WIFI_STA);
-  // WiFi.disconnect();
-  // delay(100);
+  WiFi.mode(WIFI_STA);
+  WiFi.disconnect();
+  delay(100);
 
   initWiFi();
 }

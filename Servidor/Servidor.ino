@@ -1,133 +1,97 @@
-//ESP32 que funge como servidor
+/*
+  WiFiAccessPoint.ino creates a WiFi access point and provides a web server on it.
+
+  Steps:
+  1. Connect to the access point "yourAp"
+  2. Point your web browser to http://192.168.4.1/H to turn the LED on or http://192.168.4.1/L to turn it off
+     OR
+     Run raw TCP "GET /H" and "GET /L" on PuTTY terminal with 192.168.4.1 as IP address and 80 as port
+
+  Created for arduino-esp32 on 04 July, 2018
+  by Elochukwu Ifediora (fedy0)
+*/
 
 #include <WiFi.h>
-#include <WebServer.h>
+#include <WiFiClient.h>
+#include <WiFiAP.h>
 
-// Se crea una red propia -> SSID y Password
+#define LED_BUILTIN 2   // Set the GPIO pin where you connected your test LED or comment this line out if your dev board has a built-in LED
 
-const char* SSID = "Maestro";
-const char* PASS = "Master123"; //Opcional
+// Set these to your desired credentials.
+const char *ssid = "yourAP";
+const char *password = "yourPassword";
 
-// Se declaran los parametros para crear una IP fija
+WiFiServer server(80);
 
-IPAddress ip (192,168,4,1);
-IPAddress gateway (192,168,4,2);
-IPAddress subnet (255,255,255,0);
-
-// Declaramos un objeto de la libreria WebServer para poder acceder a sus funciones
-// Y como parametro 80, que es el puerto estandar de todos los servicios WEB HTTP
-
-WebServer Server(80);
 
 void setup() {
-  // Iniciamos el monitor Serial
+  pinMode(LED_BUILTIN, OUTPUT);
 
   Serial.begin(115200);
-  delay(50);
+  Serial.println();
+  Serial.println("Configuring access point...");
 
-  // Creamos el punto de acceso
-  WiFi.softAP(SSID,PASS); // Tiene mas parametros opcionales
+  // You can remove the password parameter if you want the AP to be open.
+  // a valid password must have more than 7 characters
+  if (!WiFi.softAP(ssid, password)) {
+    log_e("Soft AP creation failed.");
+    while(1);
+  }
+  IPAddress myIP = WiFi.softAPIP();
+  Serial.print("AP IP address: ");
+  Serial.println(myIP);
+  server.begin();
 
-  // Para crear una IP fija utilizamos 
-  WiFi.softAPConfig(ip, gateway, subnet);
-
-  // Para utilizar la IP que viene por defecto utilizamos
-  // IPAddress ip = WiFi.softAPIP();
-
-  Serial.print("Nombre de la red ESP32: ");
-  Serial.println(SSID);
-  Serial.print("La IP es: ");
-  Serial.println(ip);
-
-  // Declarar los dispositivos que se pueden conectar al servidor
-
-  Server.on("/", handleConnectionRoot);
-  Server.on("/device1", handleDevice1);
-  Server.on("/device2", handleDevice2);
-  Server.on("/device3", handleDevice3);
-  Server.onNotFound(handleNotFound);
-
-  // Inicializar el servidor
-
-  Server.begin();
-  Serial.println("El servidor HTTP iniciado");
-  Serial.println("\nDispositivos Contactados: ");
+  Serial.println("Server started");
 }
 
 void loop() {
-  // Recibimos las peticiones de los clientes
+  WiFiClient client = server.available();   // listen for incoming clients
 
-  Server.handleClient();
-}
+  if (client) {                             // if you get a client,
+    Serial.println("New Client.");           // print a message out the serial port
+    String currentLine = "";                // make a String to hold incoming data from the client
+    while (client.connected()) {            // loop while the client's connected
+      if (client.available()) {             // if there's bytes to read from the client,
+        char c = client.read();             // read a byte, then
+        Serial.write(c);                    // print it out the serial monitor
+        if (c == '\n') {                    // if the byte is a newline character
 
-// Creamos una variable para el dispositivo y para su respuesta
+          // if the current line is blank, you got two newline characters in a row.
+          // that's the end of the client HTTP request, so send a response:
+          if (currentLine.length() == 0) {
+            // HTTP headers always start with a response code (e.g. HTTP/1.1 200 OK)
+            // and a content-type so the client knows what's coming, then a blank line:
+            client.println("HTTP/1.1 200 OK");
+            client.println("Content-type:text/html");
+            client.println();
 
-String Device = "";
-String Answer = "";
+            // the content of the HTTP response follows the header:
+            client.print("Click <a href=\"/H\">here</a> to turn ON the LED.<br>");
+            client.print("Click <a href=\"/L\">here</a> to turn OFF the LED.<br>");
 
-void setAnswer(){
-  // Cargamos un esqueleto en HTML como respuesta de conexión
-  
-  Answer =  "<!DOCTYPE html>\
-            <html>\
-            <body>\
-            <h1>Bienvenido \"" + Device +"\"! </h1>\
-            </body>\
-            </html>";
-}
+            // The HTTP response ends with another blank line:
+            client.println();
+            // break out of the while loop:
+            break;
+          } else {    // if you got a newline, then clear currentLine:
+            currentLine = "";
+          }
+        } else if (c != '\r') {  // if you got anything else but a carriage return character,
+          currentLine += c;      // add it to the end of the currentLine
+        }
 
-// Asignamos una respuesta cuando un dispositivo se conecte a la raiz
-
-void handleConnectionRoot(){
-  // El código de respuesta de estado satisfactorio HTTP 200 OK indica que la solicitud ha tenido éxito.
-
-  Server.send(200, "text/html", "Conexión exitosa");
-}
-
-void handleDevice1(){
-  // Nombramos al Dispositivo
-  Device = "ESP32-CAM-1";
-
-  // Imprimimos el nombre para identificarlo
-  Serial.println(Device);
-
-  // Mandamos a llamar la función respuesta
-  setAnswer();
-
-  // Mandamos el código de respuesta satisfactorio
-  Server.send(200, "text/html", Answer);
-}
-
-void handleDevice2(){
-  // Nombramos al Dispositivo
-  Device = "ESP32-CAM-2";
-  
-  // Imprimimos el nombre para identificarlo
-  Serial.println(Device);
-
-  // Mandamos a llamar la función respuesta
-  setAnswer();
-
-  // Mandamos el código de respuesta satisfactorio
-  Server.send(200, "text/html", Answer);
-}
-
-void handleDevice3(){
-  // Nombramos al Dispositivo
-  Device = "Mobile";
-  
-  // Imprimimos el nombre para identificarlo
-  Serial.println(Device);
-
-  // Mandamos a llamar la función respuesta
-  setAnswer();
-
-  // Mandamos el código de respuesta satisfactorio
-  Server.send(200, "text/html", Answer);
-}
-
-void handleNotFound(){
-  // El código de respuesta de estado insatisfactorio HTTP 404 ERROR indica que la solicitud no ha tenido éxito.
-
-  Server.send(404, "text/plain", "Conexión fallida");
+        // Check to see if the client request was "GET /H" or "GET /L":
+        if (currentLine.endsWith("GET /H")) {
+          digitalWrite(LED_BUILTIN, HIGH);               // GET /H turns the LED on
+        }
+        if (currentLine.endsWith("GET /L")) {
+          digitalWrite(LED_BUILTIN, LOW);                // GET /L turns the LED off
+        }
+      }
+    }
+    // close the connection:
+    client.stop();
+    Serial.println("Client Disconnected.");
+  }
 }
