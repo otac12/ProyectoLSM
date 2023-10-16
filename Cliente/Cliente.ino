@@ -1,6 +1,7 @@
 //ESP32S3 que funge como cliente
 
 #include <WiFi.h>
+#include<Libreria/Funciones_nucleos.h>
 
 // Se declaran las credenciales del servidor
 
