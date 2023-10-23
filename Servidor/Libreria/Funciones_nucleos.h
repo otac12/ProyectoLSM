@@ -1,4 +1,12 @@
 void camara(void * parametres){
-     Serial.print("Task2 running on core ");
+     String respuesta;
+     Serial.print("Corriendo Hilo");
      Serial.println(xPortGetCoreID());
+
+     WiFi cliente = *((WiFi*)parametres);
+
+     respuesta = cliente.readStringUntil('\r');
+
+     Serial.println(respuesta);
+
 }

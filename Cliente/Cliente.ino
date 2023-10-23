@@ -1,9 +1,9 @@
 //ESP32S3 que funge como cliente
 
 #include <WiFi.h>
-#include<Libreria/Funciones_nucleos.h>
+#include <WiFiClient.h>
 
-// Se declaran las credenciales del servidor
+// Se declaran las cre/Users/tonatiuh/Desktop/Proyecto_LSM/Cliente/Cliente.inodenciales del servidor
 
 // const char* SSID = "Totalplay-97AA";
 // const char* PASS = "97AA4E1DzJ9kk5Hy";
@@ -24,8 +24,9 @@ void initWiFi() {
 }
 
 void setup() {
+  int Ip_server; // se pone la ip del servidor 
   Serial.begin(115200);
-
+  WiFiClient cliente;
   // Set WiFi to station mode and disconnect from an AP if it was previously connected
   WiFi.mode(WIFI_STA);
   WiFi.disconnect();
@@ -35,5 +36,16 @@ void setup() {
 }
 
 void loop() {
-  
+ 
+  if (cliente.connect(Ip_server))
+  {
+    String informacion = "Informacion_imagen";  // Datos a enviar en el cuerpo del POST
+    String solicitud = "POST /ruta_del_servidor HTTP/1.1\r\n" +
+                             "Host: " + serverIP + "\r\n" +
+                             "Content-Type: application/x-www-form-urlencoded\r\n" +
+                             "Content-Length: " + String(informacion.length()) + "\r\n\r\n" +
+                             informacion;
+                             
+    client.print(solicitud);
+  }
 }
