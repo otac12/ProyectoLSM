@@ -1,65 +1,80 @@
-/*/Users/tonatiuh/Desktop/Proyecto_LSM/Cliente/Cliente.ino
-  WiFiAccessPoint.ino creates a WiFi access point and provides a web server on it.
-
-  Steps:
-  1. Connect to the access point "yourAp"/Users/tonatiuh/Desktop/Proyecto_LSM/Servidor/Libreria/Funciones_nucleos.h
-  2. Point your web browser to http://192.168.4.1/H to turn the LED on or http://192.168.4.1/L to turn it off
-     OR
-     Run raw TCP "GET /H" and "GET /L" on PuTTY terminal with 192.168.4.1 as IP address and 80 as port
-
-  Created for arduino-esp32 on 04 July, 2018
-  by Elochukwu Ifediora (fedy0)
-*/
-
 #include <WiFi.h>
-#include <WiFiClient.h>
-#include <WiFiAP.h>
-#include "Libreria/Funciones_nucleos.h"
+#include <WebServer.h>
+#include <SPIFFS.h>
 
-#define LED_BUILTIN 2   // Set the GPIO pin where you connected your test LED or comment this line out if your dev board has a built-in LED
-
-// Set these to your desired credentials.
-const char *ssid = "yourAP";
-const char *password = "yourPassword";
-
-WiFiServer server(80);
-
+const char* ssid = "MiRedAP"; // Nombre de la red Wi-Fi del punto de acceso
+const char* password = "MiContraseñaAP"; // Contraseña de la red del punto de acceso
+WebServer server(80); // Crea el servidor en el puerto 80
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-
   Serial.begin(115200);
-  Serial.println();
-  Serial.println("Configuring access point...");
-  WiFiClient Clientes[3];
-  int contador=0;
-  String respuesta;
 
-  // You can remove the password parameter if you want the AP to be open.
-  // a valid password must have more than 7 characters
-  if (!WiFi.softAP(ssid, password)) {
-    log_e("Soft AP creation failed.");
-    while(1);
-  }
-  IPAddress myIP = WiFi.softAPIP();
-  Serial.print("AP IP address: ");
-  Serial.println(myIP);
+  // Conecta el ESP32 al punto de acceso (AP)
+  WiFi.softAP(ssid, password);
+
+  Serial.println("Servidor en funcionamiento en modo AP");
+
+  server.on("/", HTTP_GET, [](){
+    server.send(200, "text/plain", "¡Bienvenido al servidor ESP32!");
+  });
+
+  server.on("/upload", HTTP_POST, [](){
+    HTTPUpload& upload = server.upload();
+    if (upload.status == UPLOAD_FILE_START) {
+      Serial.printf("Recibiendo archivo: %s\n", upload.filename.c_str());
+      SPIFFS.remove(upload.filename);
+      File file = SPIFFS.open(upload.filename, "w");
+      if (!file) {
+        Serial.println("Error al abrir el archivo para escritura");
+      }
+    } else if (upload.status == UPLOAD_FILE_WRITE) {
+      Serial.printf("Escribiendo %d bytes\n", upload.currentSize);
+      File file = SPIFFS.open(upload.filename, "a");
+      if (file) {
+        file.write(upload.buf, upload.totalSize);
+      }
+    } else if (upload.status == UPLOAD_FILE_END) {
+      Serial.printf("Archivo recibido: %s, %u bytes\n", upload.filename.c_str(), upload.totalSize);
+      server.send(200, "text/plain", "Archivo recibido");
+    }
+  });
+
   server.begin();
-
-  Serial.println("Server started");
 }
 
 void loop() {
+  server.handleClient();
+  // WiFiClient client = server.available();
 
-  Clientes[0] = server.available();   // Cliente 1
+  // if (client) {
+  //   String currentLine = "";
+  //   while (client.connected()) {
+  //     if (client.available()) {
+  //       char c = client.read();
+  //       if (c == '\n') {
+  //         if (currentLine.length() == 0) {
+  //           // Fin de la solicitud HTTP
+  //           if (currentLine.startsWith("POST")) {
+  //             // Procesa la solicitud POST aquí
+  //             // Captura y procesa los datos POST del cliente
+  //             // Ejemplo: busca "Content-Length" para obtener el tamaño de los datos
+  //           }
+  //           client.println("HTTP/1.1 200 OK");
+  //           client.println("Content-Type: text/html");
+  //           client.println("Connection: close");
+  //           client.println();
+  //           client.println("Solicitud procesada con éxito");
+  //           break;
+  //         } else {
+  //           currentLine = "";
+  //         }
+  //       } else if (c != '\r') {
+  //         currentLine += c;
+  //       }
+  //     }
+  //   }
+  //   client.stop();
+  // }
 
-  // se incializa los thread para cada camara 
 
-  xTaskCreatePinnedToCore(camara,"camara1",10000,&Clientes[0],0,&camara1,0);
-
-  Clientes[1] = server.available();   // Cliente 2
-
-  respuesta = Cliente[1].readStringUntil('\r');
-
-  Serial.println(respuesta);
 }
