@@ -2,27 +2,12 @@
 #include <HTTPClient.h>
 #include "esp_camera.h"
 
-#define PWDN_GPIO_NUM     32
-#define RESET_GPIO_NUM    -1
-#define XCLK_GPIO_NUM      0
-#define SIOD_GPIO_NUM     26
-#define SIOC_GPIO_NUM     27
-
-#define Y9_GPIO_NUM       35
-#define Y8_GPIO_NUM       34
-#define Y7_GPIO_NUM       39
-#define Y6_GPIO_NUM       36
-#define Y5_GPIO_NUM       21
-#define Y4_GPIO_NUM       19
-#define Y3_GPIO_NUM       18
-#define Y2_GPIO_NUM        5
-#define VSYNC_GPIO_NUM    25
-#define HREF_GPIO_NUM     23
-#define PCLK_GPIO_NUM     22
-
-const char* ssid = "MiRedAP";
-const char* password = "MiContraseñaAP";
+const char* ssid = "Esp32";
+const char* password = "Tonatiuh";
 const char* serverAddress = "192.168.4.1"; // Reemplaza con la dirección IP del servidor en modo AP
+
+#define CAMERA_MODEL_XIAO_ESP32S3
+#include "Pines.h"
 
 void setup() {
   Serial.begin(115200);
@@ -35,23 +20,7 @@ void setup() {
 
   Serial.println("Conexión Wi-Fi establecida");
 
-  // HTTPClient http;
-  // http.begin(serverAddress);
-  // http.addHeader("Content-Type", "application/x-www-form-urlencoded");
-
-  // // Datos que deseas enviar en la solicitud POST
-  // String postData = "dato=Valor_del_dato";
-
-  // int httpCode = http.POST(postData);
-
-  // if (httpCode > 0) {
-  //   String response = http.getString();
-  //   Serial.println("Respuesta del servidor: " + response);
-  // } else {
-  //   Serial.println("Error en la solicitud POST");
-  // }
-
-  // http.end();
+  // camara
 
   camera_config_t config;
   config.ledc_channel = LEDC_CHANNEL_0;
@@ -106,7 +75,6 @@ void setup() {
   pinMode(14, INPUT_PULLUP);
 #endif
 
-
   esp_err_t err = esp_camera_init(&config);
   if (err != ESP_OK) {
     Serial.printf("Error al inicializar la cámara: %s\n", esp_err_to_name(err));
@@ -115,26 +83,35 @@ void setup() {
 }
 
 void loop() {
-  
-  camera_fb_t *fb = esp_camera_fb_get();
+  if (WiFi.status() == WL_CONNECTED) {
+        // Captura una imagen con la cámara
+        camera_fb_t *fb = esp_camera_fb_get();
+        if (fb) {
+            WiFiClient Cliente;
+            HTTPClient http;
+            http.begin(Cliente,serverAddress,80, "/upload");
+            // Configura la cabecera de la solicitud HTTP para el archivo JPEG
+            http.addHeader("ContentType","image/jpeg");
 
-  if (fb) {
-    HTTPClient http;
-    http.begin("http://" + String(serverAddress) + "/upload");
-    http.addHeader("Content-Type", "image/jpeg");
+           Serial.print(http.header("ContentType"));
+            // Envía la imagen al servidor
+            int httpResponseCode = http.POST(fb->buf, fb->len);
 
-    int httpResponseCode = http.POST((uint8_t*)fb->buf, fb->len);
+            if (httpResponseCode == 200) {
+                Serial.println("Imagen enviada con éxito al servidor");
+            } else {
+                Serial.print("Error al enviar la imagen. Código de respuesta: ");
+                Serial.println(httpResponseCode);
+            }
 
-    if (httpResponseCode > 0) {
-      Serial.print("Respuesta del servidor: ");
-      Serial.println(httpResponseCode);
-    } else {
-      Serial.print("Error en la solicitud HTTP");
+            http.end();
+            esp_camera_fb_return(fb);
+        } else {
+            Serial.println("Error al capturar la imagen.");
+        }
     }
-
-    http.end();
-    esp_camera_fb_return(fb);
-  }
-
-  delay(5000);
+  
+  // Espera un tiempo antes de capturar otra imagen
+ 
+  delay(10000);
 }
