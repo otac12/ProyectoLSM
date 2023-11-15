@@ -22,7 +22,7 @@
 
 const char* ssid = "MiRedAP";
 const char* password = "MiContraseñaAP";
-const char* serverAddress = "192.168.4.1"; // Reemplaza con la dirección IP del servidor en modo AP
+const char* serverAddress = "0.0.0.0"; // Reemplaza con la dirección IP del servidor en modo AP
 
 void setup() {
   Serial.begin(115200);

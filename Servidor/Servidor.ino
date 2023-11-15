@@ -3,7 +3,7 @@
 #include <SPIFFS.h>
 
 const char* ssid = "MiRedAP"; // Nombre de la red Wi-Fi del punto de acceso
-const char* password = "MiContraseñaAP"; // Contraseña de la red del punto de acceso
+const char* password = "MiContrasenaAP"; // Contraseña de la red del punto de acceso
 WebServer server(80); // Crea el servidor en el puerto 80
 
 void setup() {
@@ -40,6 +40,7 @@ void setup() {
   });
 
   server.begin();
+  Serial.println(WiFi.softAPIP());
 }
 
 void loop() {
