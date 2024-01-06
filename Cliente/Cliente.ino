@@ -89,12 +89,7 @@ void loop() {
     Serial.println("Error al abrir el archivo para lectura");
     return;
   }
-  Serial.println("Contenido del archivo 'foto.bmp':");
-  while (file.available()) {
-    Serial.write(file.read());
-  }
-  file.close();
-
+  
   // Libera la memoria utilizada por el búfer de la cámara
   esp_camera_fb_return(fb);
 
