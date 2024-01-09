@@ -2,13 +2,9 @@
 #include <WebServer.h>
 #include <SPIFFS.h>
 
-<<<<<<< HEAD
-const char* ssid = "MiRedAP"; // Nombre de la red Wi-Fi del punto de acceso
-const char* password = "MiContrasenaAP"; // Contraseña de la red del punto de acceso
-=======
+
 const char* ssid = "Esp32"; // Nombre de la red Wi-Fi del punto de acceso
 const char* password = "Tonatiuh"; // Contraseña de la red del punto de acceso
->>>>>>> 541f29aa2b15b3f572cb5c3e56a7d4762675b773
 WebServer server(80); // Crea el servidor en el puerto 80
 
 void setup() {
@@ -56,11 +52,8 @@ void setup() {
   });
 
   server.begin();
-<<<<<<< HEAD
   Serial.println(WiFi.softAPIP());
-=======
   Serial.println(WiFi.localIP());
->>>>>>> 541f29aa2b15b3f572cb5c3e56a7d4762675b773
 }
 
 void loop() {
