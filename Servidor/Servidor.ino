@@ -5,6 +5,10 @@
 
 const char* ssid = "Esp32"; // Nombre de la red Wi-Fi del punto de acceso
 const char* password = "Tonatiuh"; // Contraseña de la red del punto de acceso
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6f351563ee280edf08666757c04f070506ffc6fb
 WebServer server(80); // Crea el servidor en el puerto 80
 
 void setup() {
@@ -20,6 +24,11 @@ void setup() {
   });
 
   server.on("/upload", HTTP_POST, [](){
+
+    if(!SPIFFS.begin(true)){
+    Serial.println("Error al montar SPIFFS");
+    return;
+    }
     
     if (server.hasHeader("ContentType")) {
       String contentType = server.header("ContentType");
@@ -52,8 +61,16 @@ void setup() {
   });
 
   server.begin();
+<<<<<<< HEAD
   Serial.println(WiFi.softAPIP());
   Serial.println(WiFi.localIP());
+=======
+
+  Serial.println(WiFi.softAPIP());
+
+  Serial.println(WiFi.localIP());
+
+>>>>>>> 6f351563ee280edf08666757c04f070506ffc6fb
 }
 
 void loop() {
