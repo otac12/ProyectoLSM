@@ -3,33 +3,30 @@
 #include <WiFi.h>
 #include <FS.h>
 #include <SPIFFS.h> 
+#include <HTTPClient.h>
+#define CAMERA_MODEL_AI_THINKER
 #include "Pines.h"
 
-#define CAMERA_MODEL_AI_THINKER
+const char* ssid = "MiRedESP32";  // Nombre de tu red WiFi
+const char* password = "ClaveSecreta";  // Contraseña de tu red WiFi
+const char* esp32Server = "http://192.168.4.1/foto";
 
-const char* ssid = "Totalplay-7E9D";
-const char* password = "7E9DE6FE6Xm3qJjn";
-const char* server_ip = "192.168.0.1";
-const int server_port = 80;
-
-//static const char *TAG = "camera_example";
+String responsePayload;
 
 void setup() {
-
   Serial.begin(115200);
+  WiFi.begin(ssid, password);
+  Serial.println("Conectando");
 
-  if(!SPIFFS.begin(true)){
-    Serial.println("Error al montar SPIFFS");
-    return;
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
   }
 
-  // Conéctate a la red WiFi
-  //WiFi.begin(ssid, password);
-  //while (WiFi.status() != WL_CONNECTED) {
-   // delay(1000);
-   // Serial.println("Conectando a WiFi...");
-  //}
-  //Serial.println("Conectado a la red WiFi");
+  Serial.println("");
+  Serial.print("Conectado a la red con la IP: ");
+  Serial.println(WiFi.localIP());
+  Serial.println();
 
   // Configura la cámara
   camera_config_t config;
@@ -70,6 +67,11 @@ void setup() {
 }
 
 void loop() {
+  String answer = getRequest(esp32Server);
+  Serial.println("Respuesta del ESP32 Servidor:");
+  Serial.println(responsePayload);
+  delay(5000);
+
   if (capturarFotoRemotamente()){
     Serial.println("Foto capturada y guardada como 'foto.bmp'");
   } else {
@@ -78,18 +80,14 @@ void loop() {
 
   // Espera 5 segundos antes de tomar otra foto
   delay(10000);
-  }
+}
 
 bool capturarFotoRemotamente() {
-  HTTPClient http;
+  // Realiza la solicitud HTTP GET al servidor
+  responsePayload = getRequest("http://192.168.4.1/foto");
 
-  // URL del servidor
-  String url = "http://" + String(server_ip) + ":" + String(server_port) + "/tomar-foto";
-
-  // Realiza la solicitud HTTP POST al servidor
-  int httpResponseCode = http.POST(url);
-
-  if (httpResponseCode == HTTP_CODE_OK) {
+  // Verifica la respuesta del servidor
+  if (!responsePayload.isEmpty()) {
     // La orden se envió correctamente, captura la foto
     camera_fb_t* fb = esp_camera_fb_get();
 
@@ -114,7 +112,25 @@ bool capturarFotoRemotamente() {
 
     return true;
   } else {
-    Serial.printf("Error en la solicitud HTTP: %d\n", httpResponseCode);
+    Serial.println("Error en la solicitud HTTP");
     return false;
   }
+}
+
+String getRequest(const char* url) {
+  HTTPClient http;
+  http.begin(url);
+
+  int httpResponseCode = http.GET();
+  String payload = "";
+
+  if (httpResponseCode > 0) {
+    payload = http.getString();
+  } else {
+    Serial.print("Error en la solicitud HTTP. Código de respuesta: ");
+    Serial.println(httpResponseCode);
+  }
+
+  http.end();
+  return payload;
 }
