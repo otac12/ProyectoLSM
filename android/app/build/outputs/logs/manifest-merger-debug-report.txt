@@ -1,433 +1,419 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/93ec459fa16ec813d941b9c5be2df23a/transformed/viewbinding-7.4.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/b49d4e50b82cbbe113974aa5c140c9f2/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/429f97bca2180257f0e9087ab6839ac8/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/84e5c258171261e5bd20f6acdb19e865/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/c37c674f684fd87d4132e0b5891c4cce/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/ab28108d6a9a1635c228c403d5d3d10e/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/faf15bb6b550e6bbbb44c88f79a0952c/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/0161334c77fd2966391818516c269bb2/transformed/navigation-ui-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/6e008e382ff61a83b081f3897a61c8fd/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/bb7366753407a9b0dcbcd61fc342ca7b/transformed/activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/b704ca5db4d1a8cba003efb8e402d841/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/78abe4a9d18d5c90136a569842c6d83e/transformed/navigation-common-2.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/18d87a80e38b46e7932bc9ac1db8b13d/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.material:material:1.6.1] /Users/tonatiuh/.gradle/caches/transforms-3/33a35cf176d476eff75299f18a6ea3f9/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/9664e2019cc440a50ebc059e1851a1de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.camera:camera-view:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d6e0578e689c4d1c1cdd704e580f9602/transformed/camera-view-1.2.0-alpha02/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/0755142cb8ad6588ba3233eab7ed7f89/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/6dbaa18127cb05679b3df0eb4a86fb17/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/4ef241b7622fa1dcb032a5809df12d4f/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/b06f478994b2e2294699082efac9798c/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c9b786d0f0bc895a6f0653e3ccf076f4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/738ab1c91d082953bc9d40823ff958ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/f1b19185fc773995ad9a1fbc7684e4b7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ced1a4968237bacae381ca13157666c0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/7e63de856ee28ccca2adb9eb5ecd7ece/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/b8eb09d2feda2ff036d6cf28bdf7c454/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/a3c1d10080f3243115b42eed4941ddcc/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9e931f28f7415c663f8d65de71f5df5/transformed/tensorflow-lite-gpu-2.3.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.camera:camera-lifecycle:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f01beed3a71f51f1380aee9da6fd5ace/transformed/camera-lifecycle-1.2.0-alpha02/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9ce051fe047035bbe135bb1b47f0074a/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.mediapipe:tasks-vision:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/55346e4bf9698218052980f03f1de9de/transformed/tasks-vision-0.10.14/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/79946aa17d022e751f4cf35a134018ff/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/b1ba3d1e38f7586ac14782f92428ba35/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/4f4d929bb9f61e813ad7407064ee8e63/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/1c69dfd62bb06ebcb78451086a9be546/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/bfa4d577ba1585b6bbbdba16e0b5dfc5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/0a7ca19209453c7ba6453e2bbaef3e87/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/9e3ac64ceeddfb3a15a758d665eedb2a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c8498d86c0d9ebb10faaea628a745640/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/62a0e7d543847700543c37a47fdc09c8/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/962e45fe7b7ee72e0ad936ef5e40fc92/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9475cc9e7422a6138a4e631ac8fdb7c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/b935d0d2c8f2feb288a48350b70a67dc/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/tonatiuh/.gradle/caches/transforms-3/2e85de0e816fbcb372846219a5626ddb/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/e22b8bc6af71cfe017ded6a442bd54db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/527f1e065594e5bf54e269231a4f0089/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/2e712233a445f96a2bb2bca95c25160b/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/70c8bacf6f57fd6ccfe7cf74b1622b8b/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/5857808a938eb72bbc20ccf594032177/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/8c6fa124746fb8c00045517defd8ddc2/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/028b6334e9f0a3a112330605a859703a/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/b483245571fd7ba0835323d3ac1a4560/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/db700b11af1e6d16d7c56463afe37ef7/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.mediapipe:tasks-core:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/9d6427e5837b48ce38e62e6ff88eb398/transformed/tasks-core-0.10.14/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/f76508e74cf1d7adc535d137df0afd5d/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/623a3664fdcdb495ce2c5f60d108367d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/60dcecfbd5050efafab35175ea96441a/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/8b5cab314d510bb20d9a00ad01a2f7b2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/9804ffdd8160b590270a60ca0fa95dcb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/2d81d29dd41002760093e6f90033b78d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/01e9479b1dab2e0920850b29a22b86dc/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/620ee1522209464c353f65b03d016e2f/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/eb137b4288e46daed085a36db7ba8a54/transformed/viewbinding-7.4.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/b18be319ab866fb08b61d1dbfe163480/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/7ce41a6eb5a9f4311e95717a2e5e8666/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/1c8e244b3ad3dfca83fa39163c35e7bb/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/1e3f66796d3a6a51354217b2b87b5211/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/fa6590e13816f06cdb13f892de49b857/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/850faa4a71da3f8ad7fe937cc5c94a3f/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/aace0a43e5254247b3f82cc1754fc1a0/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/ea364f0bbb21a1bc8dfdfec506f0624b/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/3cc27b9d51d018bb8686e6cc7310a804/transformed/activity-ktx-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/4209861401dc7fa59ab3c294b0e75042/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/7bb60513a35f95b911878f012a7bdb4f/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/17a937fdd59d37dddd9c5e1e7e0e4879/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.7.0] /Users/tonatiuh/.gradle/caches/transforms-3/512c5ea258fdbc4a122a24d406b3369c/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/a7de7696bfa6d03c8573ecfa2bcfd328/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-view:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/6c924e49f86b2642e5aea764c66be575/transformed/camera-view-1.2.0-alpha02/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ba9f0e16da068378639d6e83fcd0c531/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/307405c6bc5779acf162a1b9e8889965/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/2e3d3402c8eb4e6c95851ec49844a95e/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/37f9c13ea236f0e99bc56a1d94bfe16e/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/2544732ce8c455b351a4e4c54c2435a3/transformed/activity-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/8c4f2005f8092f6eeabc8616e5988b64/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/6ad9892b99f090b01c8555143221d045/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/34eee72cd26d210ec3ad75136f7363f4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ce48a2e979d5b7b7c888fdf467f45ef1/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/883e4527ede5c8e881b036c075ef805a/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/3cd9b69f3005c1840faf72cb52fc5880/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/842d9097bdad328ba194122e20b44607/transformed/core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.camera:camera-lifecycle:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9d9ecd4ab8ac00981641a808cb1b8727/transformed/camera-lifecycle-1.2.0-alpha02/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f24b0b521c20820b1bfe0b9eb46bf3da/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.mediapipe:tasks-vision:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/a77248c3d32ce019aaa7e24a89c84600/transformed/tasks-vision-0.10.14/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/375dcfa89dd947efac57e5c8f098edfa/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/b49618829279a85d293e556f33604d72/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/bc4fa4c5bab5a5fae6bec54cdca3cae8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/0f68bd849f51e371437bf04ecd2bc077/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/41c950940a36ba2e95c6f44c7d37a7d1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/e2d4f9b4b4cab89bc6f8c6e02ed1f7c6/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/4ec81fb0a09b958012e2a532f6846f85/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/c977ee5518fdb9815d7e5083adc93b05/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/0f214456219cdd941793161d32bbfb7b/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/28b531ea10b526ceb852320c0d9239b8/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c854e13a92f007007cb33527c9a417f8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/8b738edd05b5087e490ad406b185781d/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/df1bdcbb95ea6a4a0f37b2e409b278aa/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/887980765392e9217691eba5e131c1b5/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d62e0cde192e45932b2bbb372ef4141d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/tonatiuh/.gradle/caches/transforms-3/c9384e870b5516e8e390556df757d68d/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/c7927b385f75899c067c195c33b1fc99/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/140161e06d2ca2f3d367363208b883ec/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/a6f6efae611147b37114b340e5c42ac8/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/c5b17f506654902ae5a4596df5c192e1/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/fa3144d5beaa8fa91db04eb20ac41bc0/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/23ee2275e543b98f84e73652251b7701/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/c216755a0bb96fa717e81ce28f970fa8/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.mediapipe:tasks-core:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/194ef12d83e8c0b788e88b408855a423/transformed/tasks-core-0.10.14/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/0075e9d14bf053b908883278fb45249c/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/51917d95a2be5426ffebdc73c992d116/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/7cccee6e090766651a648b759550f7de/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/589749b65cf5469d8610696d96bc2a08/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/721e17fc36583ace273ab78324151e5c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/127cb8decb38a077b643b5918b8733cf/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/261d61465696a9dd638ef8a37be4ae71/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
 	package
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:19:5-51
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:19:5-51
 	xmlns:dist
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:18:5-61
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:18:5-61
 	android:versionCode
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:1-62:12
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:1-56:12
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:17:11-69
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:17:11-69
 dist:module
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:22:5-40
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:22:5-40
 	dist:instant
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:22:18-37
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:22:18-37
 uses-feature#android.hardware.camera
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:25:5-60
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:25:5-60
 	android:name
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:25:19-57
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:25:19-57
 uses-permission#android.permission.CAMERA
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:28:5-65
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:28:5-65
 	android:name
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:28:22-62
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:28:22-62
 application
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:30:5-60:19
-MERGED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:24:5-31:19
-MERGED from [com.google.android.material:material:1.6.1] /Users/tonatiuh/.gradle/caches/transforms-3/33a35cf176d476eff75299f18a6ea3f9/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.6.1] /Users/tonatiuh/.gradle/caches/transforms-3/33a35cf176d476eff75299f18a6ea3f9/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/9664e2019cc440a50ebc059e1851a1de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/9664e2019cc440a50ebc059e1851a1de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9e931f28f7415c663f8d65de71f5df5/transformed/tensorflow-lite-gpu-2.3.0/AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9e931f28f7415c663f8d65de71f5df5/transformed/tensorflow-lite-gpu-2.3.0/AndroidManifest.xml:10:5-20
-MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
-MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
-MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9ce051fe047035bbe135bb1b47f0074a/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
-MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9ce051fe047035bbe135bb1b47f0074a/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/e22b8bc6af71cfe017ded6a442bd54db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/e22b8bc6af71cfe017ded6a442bd54db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/527f1e065594e5bf54e269231a4f0089/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/527f1e065594e5bf54e269231a4f0089/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:30:5-54:19
+MERGED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.android.material:material:1.7.0] /Users/tonatiuh/.gradle/caches/transforms-3/512c5ea258fdbc4a122a24d406b3369c/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.7.0] /Users/tonatiuh/.gradle/caches/transforms-3/512c5ea258fdbc4a122a24d406b3369c/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/a7de7696bfa6d03c8573ecfa2bcfd328/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/a7de7696bfa6d03c8573ecfa2bcfd328/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
+MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
+MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f24b0b521c20820b1bfe0b9eb46bf3da/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
+MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f24b0b521c20820b1bfe0b9eb46bf3da/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:24:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/28b531ea10b526ceb852320c0d9239b8/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/28b531ea10b526ceb852320c0d9239b8/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/c7927b385f75899c067c195c33b1fc99/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/c7927b385f75899c067c195c33b1fc99/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/140161e06d2ca2f3d367363208b883ec/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/140161e06d2ca2f3d367363208b883ec/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/28b531ea10b526ceb852320c0d9239b8/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:34:9-35
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:35:9-35
 	android:label
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:33:9-41
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:33:9-41
 	tools:ignore
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:36:9-35
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:38:9-35
+	android:roundIcon
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:34:9-54
 	android:icon
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:32:9-43
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:32:9-43
 	android:allowBackup
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:31:9-35
-	android:taskAffinity
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:35:9-32
-activity#com.google.mediapipe.examples.imageclassification.MainActivity
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:38:9-59:20
-	android:clearTaskOnLaunch
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:40:13-45
-	android:exported
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:42:13-36
-	android:resizeableActivity
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:43:13-46
-	android:rotationAnimation
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:44:13-49
-	android:configChanges
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:41:13-91
-	tools:targetApi
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:46:13-32
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:31:9-35
 	android:theme
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:45:13-44
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:37:9-55
+	android:taskAffinity
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:36:9-32
+activity#com.google.mediapipe.examples.gesturerecognizer.MainActivity
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:40:9-53:20
+	android:exported
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:39:13-41
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:41:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:49:13-53:29
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:50:17-69
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:50:25-66
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:52:17-77
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:52:27-74
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:46:27-74
 meta-data#android.notch_support
-ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:56:13-58:40
+ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:50:13-52:40
 	android:value
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:58:17-37
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:52:17-37
 	android:name
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:57:17-53
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml:51:17-53
 uses-sdk
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/93ec459fa16ec813d941b9c5be2df23a/transformed/viewbinding-7.4.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/93ec459fa16ec813d941b9c5be2df23a/transformed/viewbinding-7.4.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/b49d4e50b82cbbe113974aa5c140c9f2/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/b49d4e50b82cbbe113974aa5c140c9f2/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/429f97bca2180257f0e9087ab6839ac8/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/429f97bca2180257f0e9087ab6839ac8/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/84e5c258171261e5bd20f6acdb19e865/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/84e5c258171261e5bd20f6acdb19e865/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/c37c674f684fd87d4132e0b5891c4cce/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/c37c674f684fd87d4132e0b5891c4cce/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/ab28108d6a9a1635c228c403d5d3d10e/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/ab28108d6a9a1635c228c403d5d3d10e/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/faf15bb6b550e6bbbb44c88f79a0952c/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/faf15bb6b550e6bbbb44c88f79a0952c/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/0161334c77fd2966391818516c269bb2/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/0161334c77fd2966391818516c269bb2/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/6e008e382ff61a83b081f3897a61c8fd/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/6e008e382ff61a83b081f3897a61c8fd/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/bb7366753407a9b0dcbcd61fc342ca7b/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/bb7366753407a9b0dcbcd61fc342ca7b/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/b704ca5db4d1a8cba003efb8e402d841/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/b704ca5db4d1a8cba003efb8e402d841/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/78abe4a9d18d5c90136a569842c6d83e/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/78abe4a9d18d5c90136a569842c6d83e/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/18d87a80e38b46e7932bc9ac1db8b13d/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/18d87a80e38b46e7932bc9ac1db8b13d/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.1] /Users/tonatiuh/.gradle/caches/transforms-3/33a35cf176d476eff75299f18a6ea3f9/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.6.1] /Users/tonatiuh/.gradle/caches/transforms-3/33a35cf176d476eff75299f18a6ea3f9/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/9664e2019cc440a50ebc059e1851a1de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/9664e2019cc440a50ebc059e1851a1de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.camera:camera-view:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d6e0578e689c4d1c1cdd704e580f9602/transformed/camera-view-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.camera:camera-view:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d6e0578e689c4d1c1cdd704e580f9602/transformed/camera-view-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/0755142cb8ad6588ba3233eab7ed7f89/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/0755142cb8ad6588ba3233eab7ed7f89/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/6dbaa18127cb05679b3df0eb4a86fb17/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/6dbaa18127cb05679b3df0eb4a86fb17/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/4ef241b7622fa1dcb032a5809df12d4f/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/4ef241b7622fa1dcb032a5809df12d4f/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/b06f478994b2e2294699082efac9798c/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/b06f478994b2e2294699082efac9798c/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c9b786d0f0bc895a6f0653e3ccf076f4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c9b786d0f0bc895a6f0653e3ccf076f4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/738ab1c91d082953bc9d40823ff958ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/738ab1c91d082953bc9d40823ff958ec/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/f1b19185fc773995ad9a1fbc7684e4b7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/f1b19185fc773995ad9a1fbc7684e4b7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ced1a4968237bacae381ca13157666c0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ced1a4968237bacae381ca13157666c0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/7e63de856ee28ccca2adb9eb5ecd7ece/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/7e63de856ee28ccca2adb9eb5ecd7ece/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/b8eb09d2feda2ff036d6cf28bdf7c454/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/b8eb09d2feda2ff036d6cf28bdf7c454/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/a3c1d10080f3243115b42eed4941ddcc/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/a3c1d10080f3243115b42eed4941ddcc/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9e931f28f7415c663f8d65de71f5df5/transformed/tensorflow-lite-gpu-2.3.0/AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9e931f28f7415c663f8d65de71f5df5/transformed/tensorflow-lite-gpu-2.3.0/AndroidManifest.xml:7:5-8:41
-MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
-MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
-MERGED from [androidx.camera:camera-lifecycle:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f01beed3a71f51f1380aee9da6fd5ace/transformed/camera-lifecycle-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.camera:camera-lifecycle:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f01beed3a71f51f1380aee9da6fd5ace/transformed/camera-lifecycle-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9ce051fe047035bbe135bb1b47f0074a/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
-MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9ce051fe047035bbe135bb1b47f0074a/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
-MERGED from [com.google.mediapipe:tasks-vision:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/55346e4bf9698218052980f03f1de9de/transformed/tasks-vision-0.10.14/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.mediapipe:tasks-vision:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/55346e4bf9698218052980f03f1de9de/transformed/tasks-vision-0.10.14/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/79946aa17d022e751f4cf35a134018ff/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/79946aa17d022e751f4cf35a134018ff/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/b1ba3d1e38f7586ac14782f92428ba35/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/b1ba3d1e38f7586ac14782f92428ba35/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/4f4d929bb9f61e813ad7407064ee8e63/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/4f4d929bb9f61e813ad7407064ee8e63/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/1c69dfd62bb06ebcb78451086a9be546/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/1c69dfd62bb06ebcb78451086a9be546/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/bfa4d577ba1585b6bbbdba16e0b5dfc5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/bfa4d577ba1585b6bbbdba16e0b5dfc5/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/0a7ca19209453c7ba6453e2bbaef3e87/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/0a7ca19209453c7ba6453e2bbaef3e87/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/9e3ac64ceeddfb3a15a758d665eedb2a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/9e3ac64ceeddfb3a15a758d665eedb2a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c8498d86c0d9ebb10faaea628a745640/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c8498d86c0d9ebb10faaea628a745640/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/62a0e7d543847700543c37a47fdc09c8/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/62a0e7d543847700543c37a47fdc09c8/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/962e45fe7b7ee72e0ad936ef5e40fc92/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/962e45fe7b7ee72e0ad936ef5e40fc92/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9475cc9e7422a6138a4e631ac8fdb7c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/e9475cc9e7422a6138a4e631ac8fdb7c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/b935d0d2c8f2feb288a48350b70a67dc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/b935d0d2c8f2feb288a48350b70a67dc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/tonatiuh/.gradle/caches/transforms-3/2e85de0e816fbcb372846219a5626ddb/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/tonatiuh/.gradle/caches/transforms-3/2e85de0e816fbcb372846219a5626ddb/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/e22b8bc6af71cfe017ded6a442bd54db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/e22b8bc6af71cfe017ded6a442bd54db/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/527f1e065594e5bf54e269231a4f0089/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/527f1e065594e5bf54e269231a4f0089/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/2e712233a445f96a2bb2bca95c25160b/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/2e712233a445f96a2bb2bca95c25160b/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/70c8bacf6f57fd6ccfe7cf74b1622b8b/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/70c8bacf6f57fd6ccfe7cf74b1622b8b/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/5857808a938eb72bbc20ccf594032177/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/5857808a938eb72bbc20ccf594032177/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/8c6fa124746fb8c00045517defd8ddc2/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/8c6fa124746fb8c00045517defd8ddc2/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/028b6334e9f0a3a112330605a859703a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/028b6334e9f0a3a112330605a859703a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/b483245571fd7ba0835323d3ac1a4560/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/b483245571fd7ba0835323d3ac1a4560/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/db700b11af1e6d16d7c56463afe37ef7/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/db700b11af1e6d16d7c56463afe37ef7/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.mediapipe:tasks-core:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/9d6427e5837b48ce38e62e6ff88eb398/transformed/tasks-core-0.10.14/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.mediapipe:tasks-core:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/9d6427e5837b48ce38e62e6ff88eb398/transformed/tasks-core-0.10.14/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/f76508e74cf1d7adc535d137df0afd5d/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/f76508e74cf1d7adc535d137df0afd5d/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/623a3664fdcdb495ce2c5f60d108367d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/623a3664fdcdb495ce2c5f60d108367d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/60dcecfbd5050efafab35175ea96441a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/60dcecfbd5050efafab35175ea96441a/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/8b5cab314d510bb20d9a00ad01a2f7b2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/8b5cab314d510bb20d9a00ad01a2f7b2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/9804ffdd8160b590270a60ca0fa95dcb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/9804ffdd8160b590270a60ca0fa95dcb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/2d81d29dd41002760093e6f90033b78d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/2d81d29dd41002760093e6f90033b78d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/01e9479b1dab2e0920850b29a22b86dc/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/01e9479b1dab2e0920850b29a22b86dc/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/620ee1522209464c353f65b03d016e2f/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/620ee1522209464c353f65b03d016e2f/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/eb137b4288e46daed085a36db7ba8a54/transformed/viewbinding-7.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/tonatiuh/.gradle/caches/transforms-3/eb137b4288e46daed085a36db7ba8a54/transformed/viewbinding-7.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/b18be319ab866fb08b61d1dbfe163480/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/b18be319ab866fb08b61d1dbfe163480/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/7ce41a6eb5a9f4311e95717a2e5e8666/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/7ce41a6eb5a9f4311e95717a2e5e8666/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/1c8e244b3ad3dfca83fa39163c35e7bb/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/1c8e244b3ad3dfca83fa39163c35e7bb/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/1e3f66796d3a6a51354217b2b87b5211/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/1e3f66796d3a6a51354217b2b87b5211/transformed/fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/fa6590e13816f06cdb13f892de49b857/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/fa6590e13816f06cdb13f892de49b857/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/850faa4a71da3f8ad7fe937cc5c94a3f/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/850faa4a71da3f8ad7fe937cc5c94a3f/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/aace0a43e5254247b3f82cc1754fc1a0/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/aace0a43e5254247b3f82cc1754fc1a0/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/ea364f0bbb21a1bc8dfdfec506f0624b/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/ea364f0bbb21a1bc8dfdfec506f0624b/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/3cc27b9d51d018bb8686e6cc7310a804/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/3cc27b9d51d018bb8686e6cc7310a804/transformed/activity-ktx-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/4209861401dc7fa59ab3c294b0e75042/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/4209861401dc7fa59ab3c294b0e75042/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/7bb60513a35f95b911878f012a7bdb4f/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/tonatiuh/.gradle/caches/transforms-3/7bb60513a35f95b911878f012a7bdb4f/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/17a937fdd59d37dddd9c5e1e7e0e4879/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/17a937fdd59d37dddd9c5e1e7e0e4879/transformed/lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /Users/tonatiuh/.gradle/caches/transforms-3/512c5ea258fdbc4a122a24d406b3369c/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.7.0] /Users/tonatiuh/.gradle/caches/transforms-3/512c5ea258fdbc4a122a24d406b3369c/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/a7de7696bfa6d03c8573ecfa2bcfd328/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tonatiuh/.gradle/caches/transforms-3/a7de7696bfa6d03c8573ecfa2bcfd328/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-view:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/6c924e49f86b2642e5aea764c66be575/transformed/camera-view-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.camera:camera-view:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/6c924e49f86b2642e5aea764c66be575/transformed/camera-view-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ba9f0e16da068378639d6e83fcd0c531/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ba9f0e16da068378639d6e83fcd0c531/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/307405c6bc5779acf162a1b9e8889965/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/307405c6bc5779acf162a1b9e8889965/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/2e3d3402c8eb4e6c95851ec49844a95e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/2e3d3402c8eb4e6c95851ec49844a95e/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/37f9c13ea236f0e99bc56a1d94bfe16e/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/tonatiuh/.gradle/caches/transforms-3/37f9c13ea236f0e99bc56a1d94bfe16e/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/2544732ce8c455b351a4e4c54c2435a3/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/2544732ce8c455b351a4e4c54c2435a3/transformed/activity-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/8c4f2005f8092f6eeabc8616e5988b64/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/8c4f2005f8092f6eeabc8616e5988b64/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/6ad9892b99f090b01c8555143221d045/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/6ad9892b99f090b01c8555143221d045/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/34eee72cd26d210ec3ad75136f7363f4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/34eee72cd26d210ec3ad75136f7363f4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ce48a2e979d5b7b7c888fdf467f45ef1/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/ce48a2e979d5b7b7c888fdf467f45ef1/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/883e4527ede5c8e881b036c075ef805a/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/883e4527ede5c8e881b036c075ef805a/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/3cd9b69f3005c1840faf72cb52fc5880/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/3cd9b69f3005c1840faf72cb52fc5880/transformed/lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/842d9097bdad328ba194122e20b44607/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/842d9097bdad328ba194122e20b44607/transformed/core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.camera:camera-lifecycle:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9d9ecd4ab8ac00981641a808cb1b8727/transformed/camera-lifecycle-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.camera:camera-lifecycle:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9d9ecd4ab8ac00981641a808cb1b8727/transformed/camera-lifecycle-1.2.0-alpha02/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f24b0b521c20820b1bfe0b9eb46bf3da/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f24b0b521c20820b1bfe0b9eb46bf3da/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:21:5-22:38
+MERGED from [com.google.mediapipe:tasks-vision:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/a77248c3d32ce019aaa7e24a89c84600/transformed/tasks-vision-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.mediapipe:tasks-vision:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/a77248c3d32ce019aaa7e24a89c84600/transformed/tasks-vision-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/375dcfa89dd947efac57e5c8f098edfa/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/375dcfa89dd947efac57e5c8f098edfa/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/b49618829279a85d293e556f33604d72/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/b49618829279a85d293e556f33604d72/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/bc4fa4c5bab5a5fae6bec54cdca3cae8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/bc4fa4c5bab5a5fae6bec54cdca3cae8/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/0f68bd849f51e371437bf04ecd2bc077/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/0f68bd849f51e371437bf04ecd2bc077/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/41c950940a36ba2e95c6f44c7d37a7d1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/41c950940a36ba2e95c6f44c7d37a7d1/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/e2d4f9b4b4cab89bc6f8c6e02ed1f7c6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/e2d4f9b4b4cab89bc6f8c6e02ed1f7c6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/4ec81fb0a09b958012e2a532f6846f85/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/4ec81fb0a09b958012e2a532f6846f85/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/c977ee5518fdb9815d7e5083adc93b05/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/c977ee5518fdb9815d7e5083adc93b05/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/0f214456219cdd941793161d32bbfb7b/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/0f214456219cdd941793161d32bbfb7b/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/28b531ea10b526ceb852320c0d9239b8/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/28b531ea10b526ceb852320c0d9239b8/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c854e13a92f007007cb33527c9a417f8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/c854e13a92f007007cb33527c9a417f8/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/8b738edd05b5087e490ad406b185781d/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/8b738edd05b5087e490ad406b185781d/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/df1bdcbb95ea6a4a0f37b2e409b278aa/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/df1bdcbb95ea6a4a0f37b2e409b278aa/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/887980765392e9217691eba5e131c1b5/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/887980765392e9217691eba5e131c1b5/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d62e0cde192e45932b2bbb372ef4141d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d62e0cde192e45932b2bbb372ef4141d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/tonatiuh/.gradle/caches/transforms-3/c9384e870b5516e8e390556df757d68d/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/tonatiuh/.gradle/caches/transforms-3/c9384e870b5516e8e390556df757d68d/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/c7927b385f75899c067c195c33b1fc99/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/c7927b385f75899c067c195c33b1fc99/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/140161e06d2ca2f3d367363208b883ec/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/140161e06d2ca2f3d367363208b883ec/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/a6f6efae611147b37114b340e5c42ac8/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/a6f6efae611147b37114b340e5c42ac8/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/c5b17f506654902ae5a4596df5c192e1/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/c5b17f506654902ae5a4596df5c192e1/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/fa3144d5beaa8fa91db04eb20ac41bc0/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/fa3144d5beaa8fa91db04eb20ac41bc0/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/23ee2275e543b98f84e73652251b7701/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/tonatiuh/.gradle/caches/transforms-3/23ee2275e543b98f84e73652251b7701/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/c216755a0bb96fa717e81ce28f970fa8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/c216755a0bb96fa717e81ce28f970fa8/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.mediapipe:tasks-core:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/194ef12d83e8c0b788e88b408855a423/transformed/tasks-core-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.mediapipe:tasks-core:0.10.14] /Users/tonatiuh/.gradle/caches/transforms-3/194ef12d83e8c0b788e88b408855a423/transformed/tasks-core-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/0075e9d14bf053b908883278fb45249c/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/0075e9d14bf053b908883278fb45249c/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/51917d95a2be5426ffebdc73c992d116/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/51917d95a2be5426ffebdc73c992d116/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/7cccee6e090766651a648b759550f7de/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/7cccee6e090766651a648b759550f7de/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/589749b65cf5469d8610696d96bc2a08/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/589749b65cf5469d8610696d96bc2a08/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/721e17fc36583ace273ab78324151e5c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/721e17fc36583ace273ab78324151e5c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/127cb8decb38a077b643b5918b8733cf/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/127cb8decb38a077b643b5918b8733cf/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/261d61465696a9dd638ef8a37be4ae71/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/261d61465696a9dd638ef8a37be4ae71/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		MERGED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tonatiuh/Desktop/mediapipe-samples/examples/gesture_recognizer/android/app/src/main/AndroidManifest.xml
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:23:9-25:40
 	android:required
-		ADDED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:24:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:26:9-28:40
 	android:required
-		ADDED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from [androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.1.0-alpha03] /Users/tonatiuh/.gradle/caches/transforms-3/a034659f6e5682760c5afab927299985/transformed/window-1.1.0-alpha03/AndroidManifest.xml:27:13-51
 service#androidx.camera.core.impl.MetadataHolderService
-ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:25:9-34:19
-MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9ce051fe047035bbe135bb1b47f0074a/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:30:9-34:78
-MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/9ce051fe047035bbe135bb1b47f0074a/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:30:9-34:78
+ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:25:9-34:19
+MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f24b0b521c20820b1bfe0b9eb46bf3da/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:30:9-34:78
+MERGED from [androidx.camera:camera-core:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/f24b0b521c20820b1bfe0b9eb46bf3da/transformed/camera-core-1.2.0-alpha02/AndroidManifest.xml:30:9-34:78
 	tools:node
-		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:30:13-31
+		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:30:13-31
 	android:enabled
-		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:27:13-36
+		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:27:13-36
 	android:exported
-		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:28:13-37
+		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:28:13-37
 	tools:ignore
-		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:29:13-75
+		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:29:13-75
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:26:13-75
+		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:26:13-75
 meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
-ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:31:13-33:89
+ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:31:13-33:89
 	android:value
-		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:33:17-86
+		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:33:17-86
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:32:17-103
+		ADDED from [androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/d5ab73b141ef5fd4a6a1c8dd4ae293c7/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:32:17-103
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/527f1e065594e5bf54e269231a4f0089/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/527f1e065594e5bf54e269231a4f0089/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/140161e06d2ca2f3d367363208b883ec/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/tonatiuh/.gradle/caches/transforms-3/140161e06d2ca2f3d367363208b883ec/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/tonatiuh/.gradle/caches/transforms-3/a8063b5511c36275590e1d232ff72e58/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/tonatiuh/.gradle/caches/transforms-3/746f857877c4a1875a491b7f6c718e8a/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:22-76
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:22-64
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:22-64
 service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
 meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
 	android:value
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
 	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/95e25d1b565545c3c350dd2f11918d2e/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
 service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
-ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
 	android:permission
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
 receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
-ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/ea7ade1515dbd7f5932b0ad366c09bd9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132

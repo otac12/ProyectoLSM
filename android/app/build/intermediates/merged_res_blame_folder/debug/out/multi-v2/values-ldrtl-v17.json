@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.google.mediapipe.examples.imageclassification.app-mergeDebugResources-47:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-47:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/Users/tonatiuh/.gradle/caches/transforms-3/33a35cf176d476eff75299f18a6ea3f9/transformed/material-1.6.1/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/Users/tonatiuh/.gradle/caches/transforms-3/512c5ea258fdbc4a122a24d406b3369c/transformed/material-1.7.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

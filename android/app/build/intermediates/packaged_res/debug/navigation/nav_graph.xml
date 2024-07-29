@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/permissions_fragment"
-        android:name="com.google.mediapipe.examples.imageclassification.fragments.PermissionsFragment"
+        android:name="com.google.mediapipe.examples.gesturerecognizer.fragment.PermissionsFragment"
         android:label="PermissionsFragment">
 
         <action
@@ -34,7 +34,7 @@
 
     <fragment
         android:id="@+id/camera_fragment"
-        android:name="com.google.mediapipe.examples.imageclassification.fragments.CameraFragment"
+        android:name="com.google.mediapipe.examples.gesturerecognizer.fragment.CameraFragment"
         android:label="CameraFragment">
 
         <action
@@ -43,8 +43,9 @@
             app:popUpTo="@id/camera_fragment"
             app:popUpToInclusive="true" />
     </fragment>
+
     <fragment
         android:id="@+id/gallery_fragment"
-        android:name="com.google.mediapipe.examples.imageclassification.fragments.GalleryFragment"
+        android:name="com.google.mediapipe.examples.gesturerecognizer.fragment.GalleryFragment"
         android:label="GalleryFragment" />
 </navigation>

@@ -51,6 +51,12 @@
                 android:layout_height="match_parent"
                 android:visibility="gone" />
 
+            <com.google.mediapipe.examples.gesturerecognizer.OverlayView
+                android:id="@+id/overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
             <androidx.core.widget.ContentLoadingProgressBar
                 android:id="@+id/progress"
                 style="?android:attr/progressBarStyle"

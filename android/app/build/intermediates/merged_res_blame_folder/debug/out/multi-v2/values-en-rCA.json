@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.google.mediapipe.examples.imageclassification.app-mergeDebugResources-47:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.google.mediapipe.examples.gesturerecognizer.app-mergeDebugResources-47:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/tonatiuh/.gradle/caches/transforms-3/28b531ea10b526ceb852320c0d9239b8/transformed/core-1.8.0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/tonatiuh/.gradle/caches/transforms-3/0755142cb8ad6588ba3233eab7ed7f89/transformed/appcompat-1.4.2/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/tonatiuh/.gradle/caches/transforms-3/307405c6bc5779acf162a1b9e8889965/transformed/appcompat-1.5.1/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

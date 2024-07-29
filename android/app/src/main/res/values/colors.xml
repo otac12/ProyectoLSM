@@ -14,7 +14,6 @@
     ~ See the License for the specific language governing permissions and
     ~ limitations under the License.
 -->
-
 <resources>
     <color name="mp_color_primary">#007F8B</color>
     <color name="mp_color_primary_variant">#12B5CB</color>

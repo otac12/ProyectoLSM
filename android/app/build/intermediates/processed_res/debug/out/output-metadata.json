@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.google.mediapipe.examples.imageclassification",
+  "applicationId": "com.google.mediapipe.examples.gesturerecognizer",
   "variantName": "debug",
   "elements": [
     {
