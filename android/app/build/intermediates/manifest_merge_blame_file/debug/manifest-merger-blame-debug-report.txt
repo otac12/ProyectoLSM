@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    ~ Copyright 2022 The TensorFlow Authors. All Rights Reserved.
+4    ~
+5    ~ Licensed under the Apache License, Version 2.0 (the "License");
+6    ~ you may not use this file except in compliance with the License.
+7    ~ You may obtain a copy of the License at
+8    ~
+9    ~       http://www.apache.org/licenses/LICENSE-2.0
+10    ~
+11    ~ Unless required by applicable law or agreed to in writing, software
+12    ~ distributed under the License is distributed on an "AS IS" BASIS,
+13    ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14    ~ See the License for the specific language governing permissions and
+15    ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    xmlns:dist="http://schemas.android.com/apk/distribution"
+19    package="com.google.mediapipe.examples.imageclassification"
+20    android:versionCode="1"
+21    android:versionName="1.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="24"
+24-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+25        android:targetSdkVersion="32" />
+25-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml
+26
+27    <!-- Enable instant app support -->
+28    <dist:module dist:instant="true" />
+28-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:22:5-40
+28-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:22:18-37
+29
+30    <!-- Declare features -->
+31    <uses-feature android:name="android.hardware.camera" />
+31-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:25:5-60
+31-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:25:19-57
+32
+33    <!-- Declare permissions -->
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:28:5-65
+34-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:28:22-62
+35
+36    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+37    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+38    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+38-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+38-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:22-76
+39    <uses-permission android:name="android.permission.INTERNET" />
+39-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+39-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:22-64
+40
+41    <application
+41-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:30:5-60:19
+42        android:allowBackup="true"
+42-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:31:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.8.0] /Users/tonatiuh/.gradle/caches/transforms-3/1303f90662f7ab8aa27483c5d0d3e17f/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:icon="@mipmap/ic_launcher"
+46-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:32:9-43
+47        android:label="@string/app_name"
+47-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:33:9-41
+48        android:supportsRtl="true"
+48-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:34:9-35
+49        android:taskAffinity=""
+49-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:35:9-32
+50        android:testOnly="true" >
+51        <activity
+51-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:38:9-59:20
+52            android:name="com.google.mediapipe.examples.imageclassification.MainActivity"
+52-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:39:13-41
+53            android:clearTaskOnLaunch="true"
+53-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:40:13-45
+54            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+54-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:41:13-91
+55            android:exported="true"
+55-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:42:13-36
+56            android:resizeableActivity="true"
+56-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:43:13-46
+57            android:rotationAnimation="seamless"
+57-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:44:13-49
+58            android:theme="@style/AppTheme" >
+58-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:45:13-44
+59
+60            <!-- Main app intent filter -->
+61            <intent-filter>
+61-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:49:13-53:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:50:17-69
+62-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:50:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:52:17-77
+64-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:52:27-74
+65            </intent-filter>
+66
+67            <!-- Declare notch support -->
+68            <meta-data
+68-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:56:13-58:40
+69                android:name="android.notch_support"
+69-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:57:17-53
+70                android:value="true" />
+70-->/Users/tonatiuh/Desktop/mediapipe-samples/examples/image_classification/android/app/src/main/AndroidManifest.xml:58:17-37
+71        </activity>
+72
+73        <uses-library
+73-->[androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:25:9-27:40
+74            android:name="androidx.window.extensions"
+74-->[androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:26:13-54
+75            android:required="false" />
+75-->[androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:27:13-37
+76        <uses-library
+76-->[androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:28:9-30:40
+77            android:name="androidx.window.sidecar"
+77-->[androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:29:13-51
+78            android:required="false" />
+78-->[androidx.window:window:1.1.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/3df3795c088ab0122e99ec0e0c3eb8c6/transformed/window-1.1.0-alpha02/AndroidManifest.xml:30:13-37
+79
+80        <service
+80-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:25:9-34:19
+81            android:name="androidx.camera.core.impl.MetadataHolderService"
+81-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:26:13-75
+82            android:enabled="false"
+82-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:27:13-36
+83            android:exported="false" >
+83-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:28:13-37
+84            <meta-data
+84-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:31:13-33:89
+85                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+85-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:32:17-103
+86                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+86-->[androidx.camera:camera-camera2:1.2.0-alpha02] /Users/tonatiuh/.gradle/caches/transforms-3/ce25461cfad5beb8749a5d9c343d5cbb/transformed/camera-camera2-1.2.0-alpha02/AndroidManifest.xml:33:17-86
+87        </service>
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+91            android:authorities="com.google.mediapipe.examples.imageclassification.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.0.0] /Users/tonatiuh/.gradle/caches/transforms-3/d529089000b537cb6873e165907c95f8/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/tonatiuh/.gradle/caches/transforms-3/fe59f74d1aa2a48f5e7c9a2df7ed5ee9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+99        </provider>
+100
+101        <service
+101-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+102            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+102-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+103            android:exported="false" >
+103-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+104            <meta-data
+104-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+105                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+105-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+106                android:value="cct" />
+106-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/7203e65f502c1c2e15d0f77bfce47732/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+107        </service>
+108        <service
+108-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+109            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+109-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+110            android:exported="false"
+110-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+111            android:permission="android.permission.BIND_JOB_SERVICE" >
+111-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+112        </service>
+113
+114        <receiver
+114-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+115            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+115-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+116            android:exported="false" />
+116-->[com.google.android.datatransport:transport-runtime:3.1.0] /Users/tonatiuh/.gradle/caches/transforms-3/8e3edc0877b4c8cbb10bf7d1dd9180b6/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+117    </application>
+118
+119</manifest>
